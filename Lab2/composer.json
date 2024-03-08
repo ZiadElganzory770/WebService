@@ -1,0 +1,25 @@
+{
+    "name": "ahmedgalal/php",
+    "authors": [
+        {
+            "name": "ahmed galal",
+            "email": "ahmedgalal@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "config.php"
+        ],
+        "classmap": [
+            "Classes"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^5.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
